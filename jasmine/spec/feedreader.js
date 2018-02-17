@@ -36,7 +36,7 @@ $(function() {
                 expect(feed.url).toBeDefined();
                 expect(feed.url).not.toBeFalsy();
             });
-        })
+        });
 
 
         /* A test that loops through each feed
@@ -48,7 +48,7 @@ $(function() {
                 expect(feed.name).toBeDefined();
                 expect(feed.name).not.toBeFalsy();
             });
-        })
+        });
     });
 
 
